@@ -77,7 +77,7 @@ const Contacts = () => {
         transition={{ type: "spring", stiffness: 30 }}
         className="flex-[0.3] glassmorphism p-8 rounded-2xl"
       >
-        <h2 className={`${styles.sectionTitle}`}>Contacts</h2>
+        <h2 className={`${styles.sectionTitle}`}>Get in touch</h2>
 
         <form
           onSubmit={formik.handleSubmit}
@@ -91,7 +91,7 @@ const Contacts = () => {
               value={formik.values.name}
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
-              className="glassmorphism-form py-3 px-6 rounded-lg outline-0 border-none font-medium"
+              className="glassmorphism-form py-3 px-6 rounded-lg outline-none border-none font-medium"
               placeholder="Your Name"
             />
             {formik.touched.name && formik.errors.name ? (
@@ -106,7 +106,7 @@ const Contacts = () => {
               value={formik.values.email}
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
-              className="glassmorphism-form py-3 px-6 rounded-lg outline-0 border-none font-medium"
+              className="glassmorphism-form py-3 px-6 rounded-lg outline-none border-none font-medium"
               placeholder="Your Email"
             />
             {formik.touched.email && formik.errors.email ? (
@@ -121,7 +121,7 @@ const Contacts = () => {
               value={formik.values.message}
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
-              className="glassmorphism-form py-3 px-6 rounded-lg outline-0 border-none font-medium"
+              className="glassmorphism-form py-3 px-6 rounded-lg outline-none border-none font-medium"
               placeholder="Type Your Message"
             />
             {formik.touched.message && formik.errors.message ? (
