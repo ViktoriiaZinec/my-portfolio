@@ -26,7 +26,7 @@ This application is built with React and utilizes the following libraries and pa
 
 ### CSS
 
--This was my first time using Tailwind CSS for styling, a highly efficient utility-first CSS framework. Tailwind CSS streamlines the development process by providing a wide range of pre-designed utility classes that can be easily applied to HTML elements. This approach promotes rapid development, improved maintainability, and consistent styling throughout the project.
+- This was my first time using Tailwind CSS for styling, a highly efficient utility-first CSS framework. Tailwind CSS streamlines the development process by providing a wide range of pre-designed utility classes that can be easily applied to HTML elements. This approach promotes rapid development, improved maintainability, and consistent styling throughout the project.
 
 ## Project setup
 
