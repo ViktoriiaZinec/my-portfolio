@@ -18,6 +18,7 @@ import {
   tweets,
   webstudio,
   jorney,
+  weather,
 } from "../assets/img/projects";
 
 import { BsGithub } from "react-icons/bs";
@@ -267,5 +268,26 @@ export const projects = [
     ],
     image: jorney,
     link: "https://github.com/ViktoriiaZinec/life-is-your-jorney",
+  },
+  {
+    name: "Weather App",
+    description:
+      "Pet project.  Weather App is a simple tool for obtaining current weather forecasts. It uses the openweathermap API to provide up-to-date weather information.",
+    tags: [
+      {
+        name: "html",
+        color: "text-[#2cc7fa] text-shadow",
+      },
+      {
+        name: "css",
+        color: "text-[#fefe47] text-shadow",
+      },
+      {
+        name: "js",
+        color: "text-[#ff57bc] text-shadow",
+      },
+    ],
+    image: weather,
+    link: "https://github.com/ViktoriiaZinec/weather-app",
   },
 ];
