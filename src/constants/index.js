@@ -116,6 +116,64 @@ export const experience = [
 
 export const projects = [
   {
+    name: "Weather App",
+    description:
+      "Pet project.  Weather App is a simple tool for obtaining current weather forecasts. It uses the openweathermap API to provide up-to-date weather information.",
+    tags: [
+      {
+        name: "html",
+        color: "text-[#2cc7fa] text-shadow",
+      },
+      {
+        name: "css",
+        color: "text-[#fefe47] text-shadow",
+      },
+      {
+        name: "js",
+        color: "text-[#ff57bc] text-shadow",
+      },
+    ],
+    image: weather,
+    link: "https://github.com/ViktoriiaZinec/weather-app",
+  },
+  {
+    name: "Jorney",
+    description:
+      "The MERN Photo Gallery App is a user-friendly application designed to help you effortlessly organize and manage your photo collection.",
+    tags: [
+      {
+        name: "html",
+        color: "text-[#2cc7fa] text-shadow",
+      },
+      {
+        name: "css",
+        color: "text-[#fefe47] text-shadow",
+      },
+      {
+        name: "js",
+        color: "text-[#ff57bc] text-shadow",
+      },
+      {
+        name: "react",
+        color: "text-[#ce58f9] text-shadow",
+      },
+      {
+        name: "node.js",
+        color: "text-[#2cc7fa] text-shadow",
+      },
+      {
+        name: "express",
+        color: "text-[#fefe47] text-shadow",
+      },
+      {
+        name: "mongodb",
+        color: "text-[#ff57bc] text-shadow",
+      },
+    ],
+    image: jorney,
+    link: "https://github.com/ViktoriiaZinec/life-is-your-jorney",
+  },
+  {
     name: "WebStudio",
     description:
       "My first project with responsive design with a modal window, image gallery and svg icons. It consists of 3 pages - Studio, Portfolio, Contacts. ",
@@ -231,63 +289,5 @@ export const projects = [
     ],
     image: canvas,
     link: "https://github.com/ViktoriiaZinec/canva",
-  },
-  {
-    name: "Jorney",
-    description:
-      "The MERN Photo Gallery App is a user-friendly application designed to help you effortlessly organize and manage your photo collection.",
-    tags: [
-      {
-        name: "html",
-        color: "text-[#2cc7fa] text-shadow",
-      },
-      {
-        name: "css",
-        color: "text-[#fefe47] text-shadow",
-      },
-      {
-        name: "js",
-        color: "text-[#ff57bc] text-shadow",
-      },
-      {
-        name: "react",
-        color: "text-[#ce58f9] text-shadow",
-      },
-      {
-        name: "node.js",
-        color: "text-[#2cc7fa] text-shadow",
-      },
-      {
-        name: "express",
-        color: "text-[#fefe47] text-shadow",
-      },
-      {
-        name: "mongodb",
-        color: "text-[#ff57bc] text-shadow",
-      },
-    ],
-    image: jorney,
-    link: "https://github.com/ViktoriiaZinec/life-is-your-jorney",
-  },
-  {
-    name: "Weather App",
-    description:
-      "Pet project.  Weather App is a simple tool for obtaining current weather forecasts. It uses the openweathermap API to provide up-to-date weather information.",
-    tags: [
-      {
-        name: "html",
-        color: "text-[#2cc7fa] text-shadow",
-      },
-      {
-        name: "css",
-        color: "text-[#fefe47] text-shadow",
-      },
-      {
-        name: "js",
-        color: "text-[#ff57bc] text-shadow",
-      },
-    ],
-    image: weather,
-    link: "https://github.com/ViktoriiaZinec/weather-app",
   },
 ];
